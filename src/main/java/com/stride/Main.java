@@ -1,6 +1,6 @@
 package com.stride;
 
-public class DoubleLinkedListMain {
+public class Main {
     public static void main(String[] args) {
         DoubleLinkedList<Integer> list = new DoubleLinkedList<Integer>();
 
