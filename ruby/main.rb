@@ -1,4 +1,4 @@
-require_relative 'double_linked_list'
+require_relative File.join 'lib', 'double_linked_list'
 
 list = DoubleLinkedList.new
 
