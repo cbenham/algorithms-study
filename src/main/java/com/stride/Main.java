@@ -26,6 +26,7 @@ public class Main {
         System.out.println("list.indexOf(null) = " + list.indexOf(null));
         System.out.println("list.get(1) = " + list.get(1));
         System.out.println("list.get(5) = " + list.get(5));
+        System.out.println("list.indexOf(99999) = " + list.indexOf(99999));
 
         System.out.println("\nReplace data in the 8th position");
         list.set(8, 7);

@@ -45,7 +45,7 @@ public class DoubleLinkedList<T> {
                 result++;
             }
         }
-        return result;
+        return found ? result : -1;
     }
 
     public T remove(int index) {
